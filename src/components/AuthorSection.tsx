@@ -25,14 +25,16 @@ const AuthorSection = () => {
               Caroline Fallin
             </h3>
             <p className="text-lg">
-              Caroline Fallin is a passionate children's book author and illustrator who brings imagination and joy 
-              to young readers everywhere. With a background in early childhood education, Caroline creates stories 
-              that both entertain and teach important life lessons.
+              Hi it's Caroline! I am a student at the University of Texas at Austin. I love camping, 
+              going outside, and spending time in nature, and I have a huge passion for photography. I’ve always 
+              loved being creative, and my experiences working as an art teacher in an afterschool program and 
+              babysitting inspired me to create a book that encourages kids to think creatively and problem-solve.
             </p>
             <p className="text-lg">
-              The Oakley's Adventures series was inspired by Caroline's own childhood experiences and her desire to 
-              create characters that children can relate to and learn from. When not writing or illustrating, Caroline 
-              enjoys hiking, painting, and visiting schools to share her stories with young readers.
+              The Oakley's Adventures series is about a squirrel named Oakley who finds something surprising 
+              after tripping over a rock one day. Throughout the story, kids will get to color, draw, and solve 
+              problems to help Oakley on his adventure. The book is interactive, designed to spark creativity 
+              and help kids think outside the box while having fun!
             </p>
             
             <div className="bg-white p-6 rounded-xl shadow-md">
