@@ -69,7 +69,7 @@
 .wavy-underline {
   text-decoration-line: underline;
   text-decoration-style: wavy;
-  text-decoration-color: theme('colors.oakley.orange');
+  text-decoration-color: theme('colors.oakley.blue');
   text-decoration-thickness: 3px;
 }
 

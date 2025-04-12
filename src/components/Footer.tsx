@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Facebook, Twitter, Instagram, Heart } from 'lucide-react';
+import { Instagram, Heart } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -20,9 +20,18 @@ const Footer = () => {
           
           <div className="flex flex-col items-center md:items-end gap-4">
             <div className="flex gap-4">
-              <SocialLink href="#" icon={<Facebook size={24} />} label="Facebook" />
-              <SocialLink href="#" icon={<Twitter size={24} />} label="Twitter" />
-              <SocialLink href="#" icon={<Instagram size={24} />} label="Instagram" />
+              <a 
+                href="https://www.instagram.com/driftanddoodleco" 
+                className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors flex items-center gap-2" 
+                aria-label="Instagram @driftanddoodleco"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-white">
+                  <Instagram size={24} />
+                </span>
+                <span className="text-white text-sm hidden sm:inline">@driftanddoodleco</span>
+              </a>
             </div>
             
             <div className="text-white/80 text-sm">
@@ -38,28 +47,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
-
-const SocialLink = ({ 
-  href, 
-  icon, 
-  label 
-}: { 
-  href: string; 
-  icon: React.ReactNode; 
-  label: string;
-}) => {
-  return (
-    <a 
-      href={href} 
-      className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors" 
-      aria-label={label}
-    >
-      <span className="text-white">
-        {icon}
-      </span>
-    </a>
   );
 };
 

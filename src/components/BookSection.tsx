@@ -31,9 +31,10 @@ const BookSection = () => {
               Oakley's Adventures
             </h3>
             <p className="text-lg">
-              Meet Oakley, a curious little character who loves to explore! In this delightful first book 
-              of the series, Oakley discovers the magic of friendship and bravery when venturing into 
-              new places.
+              The Oakley's Adventures series is about a squirrel named Oakley who finds something surprising 
+              after tripping over a rock one day. Throughout the story, kids will get to color, draw, and solve 
+              problems to help Oakley on his adventure. The book is interactive, designed to spark creativity 
+              and help kids think outside the box while having fun!
             </p>
             <p className="text-lg">
               Through colorful illustrations and engaging storytelling, children will learn important 
@@ -45,8 +46,8 @@ const BookSection = () => {
               <ul className="space-y-2">
                 <li><span className="font-bold">Age Range:</span> 4-8 years</li>
                 <li><span className="font-bold">Author & Illustrator:</span> Caroline Fallin</li>
-                <li><span className="font-bold">Pages:</span> 32 full-color pages</li>
-                <li><span className="font-bold">Published:</span> 2023</li>
+                <li><span className="font-bold">Pages:</span> 40 pages</li>
+                <li><span className="font-bold">Published:</span> Coming Soon 2025</li>
               </ul>
             </div>
           </div>

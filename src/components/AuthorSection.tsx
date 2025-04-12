@@ -40,9 +40,9 @@ const AuthorSection = () => {
             <div className="bg-white p-6 rounded-xl shadow-md">
               <h4 className="font-bold text-lg mb-2">Fun Facts About Caroline:</h4>
               <ul className="list-disc list-inside space-y-2 pl-2">
-                <li>Has a pet cat who sometimes inspires her stories</li>
-                <li>Collects unique pencils from around the world</li>
-                <li>Can recite all her books from memory</li>
+                <li>Has a dog named Chili</li>
+                <li>Carrots are one of her favorite snacks</li>
+                <li>Loves to go backpacking</li>
                 <li>Loves to bake cookies while brainstorming new stories</li>
               </ul>
             </div>
