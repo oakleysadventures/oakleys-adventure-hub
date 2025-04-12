@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="absolute -top-3 -left-3 w-full h-full bg-oakley-green rounded-full rotate-3"></div>
           <div className="absolute -top-3 -right-3 w-full h-full bg-oakley-orange rounded-full -rotate-3"></div>
           <img 
-            src="/public/lovable-uploads/3a9ef71c-6547-48fc-8241-42c2554b3b21.png" 
+            src="/public/lovable-uploads/e23845c8-b187-4cf3-9249-3e2fc47a0415.png" 
             alt="Oakley's Adventures Book Cover" 
             className="w-full relative z-10 rounded-lg shadow-xl"
           />

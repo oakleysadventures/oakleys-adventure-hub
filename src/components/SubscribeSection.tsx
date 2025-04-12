@@ -12,7 +12,7 @@ const SubscribeSection = () => {
         </h2>
         
         <div className="max-w-2xl mx-auto bg-white rounded-2xl p-6 md:p-10 shadow-xl border-4 border-oakley-yellow">
-          <div className="text-center mb-8">
+          <div className="text-center mb-6">
             <div className="inline-block p-4 rounded-full bg-oakley-orange/20 mb-4">
               <Mail size={40} className="text-oakley-orange" />
             </div>
@@ -20,18 +20,23 @@ const SubscribeSection = () => {
             <p className="text-lg text-gray-600 mb-8">
               Be the first to know about new Oakley books, events, and special offers!
             </p>
-            
-            <Button 
-              className="bg-oakley-orange hover:bg-oakley-orange/90 font-bold text-lg py-8 px-10 rounded-xl transition-all hover:scale-105"
-              onClick={() => window.open("https://forms.gle/yourGoogleFormUrlHere", "_blank")}
-            >
-              Sign Up for Updates
-            </Button>
-            
-            <p className="text-sm text-gray-500 text-center mt-6">
-              You'll be taken to our Google form to complete your subscription.
-            </p>
           </div>
+          
+          <div className="w-full overflow-hidden rounded-xl border-4 border-oakley-green">
+            <iframe 
+              src="https://docs.google.com/forms/d/e/1FAIpQLSdvaneiRplJCgVDBHLaTBInWq4sd41n5zmlrV8GyPF0JM544g/viewform?embedded=true" 
+              width="100%" 
+              height="500" 
+              className="border-0"
+              title="Oakley's Adventures Subscription Form"
+            >
+              Loading...
+            </iframe>
+          </div>
+          
+          <p className="text-sm text-gray-500 text-center mt-6">
+            Fill out the form above to join Oakley's adventure updates!
+          </p>
         </div>
       </div>
     </section>
