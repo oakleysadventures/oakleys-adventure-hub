@@ -13,7 +13,7 @@ const AuthorSection = () => {
           <div className="md:w-1/2">
             <div className="relative scribble-border p-3">
               <img 
-                src="/public/lovable-uploads/3c0865ab-abc2-4316-93fe-deb726985ade.png" 
+                src="/public/lovable-uploads/06bb11ab-7baf-44eb-a304-dd656004fc5e.png" 
                 alt="Caroline Fallin - Author" 
                 className="w-full rounded-lg shadow-lg"
               />
@@ -26,7 +26,7 @@ const AuthorSection = () => {
             </h3>
             <p className="text-lg">
               Hi it's Caroline! I am a student at the University of Texas at Austin. I love camping, 
-              going outside, and spending time in nature, and I have a huge passion for photography. I’ve always 
+              going outside, and spending time in nature, and I have a huge passion for photography. I've always 
               loved being creative, and my experiences working as an art teacher in an afterschool program and 
               babysitting inspired me to create a book that encourages kids to think creatively and problem-solve.
             </p>

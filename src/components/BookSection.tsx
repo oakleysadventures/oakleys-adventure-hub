@@ -14,7 +14,7 @@ const BookSection = () => {
           <div className="md:w-1/2">
             <div className="relative scribble-border p-3">
               <img 
-                src="/public/lovable-uploads/e23845c8-b187-4cf3-9249-3e2fc47a0415.png" 
+                src="/public/lovable-uploads/e6de17c4-ea68-4e27-9823-5ee3a5a39984.png" 
                 alt="Oakley's Adventures Book Cover" 
                 className="w-full rounded-lg shadow-lg"
               />
