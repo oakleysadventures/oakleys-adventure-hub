@@ -21,7 +21,7 @@ const Header = () => {
             </NavLink>
             <NavLink href="#book">
               <Book size={20} className="mr-1" />
-              <span>The Book</span>
+              <span>Book</span>
             </NavLink>
             <NavLink href="#author">
               <Info size={20} className="mr-1" />
