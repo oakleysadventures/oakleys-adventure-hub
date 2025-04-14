@@ -6,7 +6,7 @@ const BookSection = () => {
   return (
     <section id="book" className="py-16 bg-gradient-to-b from-white to-oakley-blue/10">
       <div className="container max-w-5xl mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 custom-underline inline-block mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 wavy-underline inline-block mx-auto">
           About The Book
         </h2>
         

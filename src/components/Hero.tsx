@@ -3,13 +3,6 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section id="home" className="cloud-bg py-16 md:py-24">
       <div className="container max-w-5xl mx-auto px-4">
@@ -22,19 +15,10 @@ const Hero = () => {
             Perfect for young readers who love excitement and imagination.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button 
-              onClick={() => scrollToSection('book')}
-              className="bg-oakley-orange hover:bg-oakley-orange/90 font-bold text-lg py-6 px-8 rounded-full" 
-              size="lg"
-            >
+            <Button className="bg-oakley-orange hover:bg-oakley-orange/90 font-bold text-lg py-6 px-8 rounded-full" size="lg">
               Explore The Book
             </Button>
-            <Button 
-              onClick={() => scrollToSection('author')}
-              variant="outline" 
-              className="border-oakley-blue hover:bg-oakley-blue/10 text-oakley-blue font-bold text-lg py-6 px-8 rounded-full" 
-              size="lg"
-            >
+            <Button variant="outline" className="border-oakley-blue hover:bg-oakley-blue/10 text-oakley-blue font-bold text-lg py-6 px-8 rounded-full" size="lg">
               Meet The Author
             </Button>
           </div>
