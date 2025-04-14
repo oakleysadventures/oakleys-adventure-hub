@@ -5,7 +5,7 @@ const AuthorSection = () => {
   return (
     <section id="author" className="py-16 bg-gradient-to-b from-oakley-blue/10 to-white">
       <div className="container max-w-5xl mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 wavy-underline inline-block mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 custom-underline inline-block mx-auto">
           Meet The Author
         </h2>
         
@@ -30,20 +30,13 @@ const AuthorSection = () => {
               loved being creative, and my experiences working as an art teacher in an afterschool program and 
               babysitting inspired me to create a book that encourages kids to think creatively and problem-solve.
             </p>
-            <p className="text-lg">
-              The Oakley's Adventures series is about a squirrel named Oakley who finds something surprising 
-              after tripping over a rock one day. Throughout the story, kids will get to color, draw, and solve 
-              problems to help Oakley on his adventure. The book is interactive, designed to spark creativity 
-              and help kids think outside the box while having fun!
-            </p>
             
             <div className="bg-white p-6 rounded-xl shadow-md">
-              <h4 className="font-bold text-lg mb-2">Fun Facts About Caroline:</h4>
+              <h4 className="font-bold text-lg mb-2">Fun facts about me:</h4>
               <ul className="list-disc list-inside space-y-2 pl-2">
                 <li>Has a dog named Chili</li>
                 <li>Carrots are one of her favorite snacks</li>
                 <li>Loves to go backpacking</li>
-                <li>Loves to bake cookies while brainstorming new stories</li>
               </ul>
             </div>
           </div>
