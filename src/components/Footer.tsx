@@ -21,10 +21,11 @@ const Footer = () => {
               href="https://www.instagram.com/colorwithcaroline" 
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white p-2 rounded-full hover:bg-oakley-orange hover:text-white transition-colors"
+              className="flex items-center bg-white px-3 py-2 rounded-full hover:bg-oakley-orange hover:text-white transition-colors"
               aria-label="Instagram @colorwithcaroline"
             >
-              <Instagram size={24} />
+              <Instagram size={24} className="mr-2" />
+              <span>@colorwithcaroline</span>
             </a>
           </div>
         </div>
